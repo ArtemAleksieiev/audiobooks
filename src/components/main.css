@@ -129,6 +129,11 @@ header h3 {
   cursor: pointer;
   margin: 0 10px;
 }
+
+.actions img {
+  width: 200px;
+  height: 200px;
+}
 .action_btns {
   display: flex;
   flex-direction: row;
@@ -187,7 +192,7 @@ header h3 {
 .tmbn_song {
   height: 65px;
   width: 65px;
-  background: url("https://freemusicarchive.org/image?file=images%2Falbums%2FSkidmore_College_Orchestra_-_Mussorgskys_Pictures_at_an_Exhibition_-_2009113013701972.jpg&width=290&height=290&type=image");
+  background: url("https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg");
   background-size: contain;
   color: white;
   display: flex;
