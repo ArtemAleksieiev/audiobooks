@@ -1,23 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import "./index.css";
+import { books } from "./books";
+import Book from "./Book";
+import Player from "./components/Player";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://cra.link/PWA
-serviceWorkerRegistration.unregister();
+const BookList = () => {
+  return (
+    <>
+      <h1>AudioBooks</h1>
+      <section className="booklist">
+        {books.map((book) => {
+          return <Book {...book} key={book.id} />;
+        })}
+      </section>
+      <Player />
+    </>
+  );
+};
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<BookList />);
