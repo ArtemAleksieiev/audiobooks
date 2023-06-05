@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  min-width: 800px;
+  min-width: 200px;
 }
 body {
   margin: 0;
