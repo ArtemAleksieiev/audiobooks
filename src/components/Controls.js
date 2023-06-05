@@ -41,13 +41,14 @@ const Controls = () => {
     setCurrentTime(compute);
     audio.current.currentTime = compute;
   };
+
   useEffect(() => {
     audio.current.volume = statevolum;
     if (playing) {
       toggleAudio();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentSong]);
+  }, [currentSong, playing & (currentSong === 0)]);
 
   return (
     <div className="controls">
