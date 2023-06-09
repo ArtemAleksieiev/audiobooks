@@ -5,6 +5,10 @@ import playerContext from "../../context/playerContext";
 let Playlist = () => {
   const { songslist, currentSong, SetCurrent, SetStart } =
     useContext(playerContext);
+
+  const backgroundStyle = {
+    backgroundImage: `url(${songslist[0].cover290})`,
+  };
   return (
     <div className="playlist">
       <ul className="loi">
@@ -17,7 +21,7 @@ let Playlist = () => {
               SetStart(i);
             }}
           >
-            <div className="tmbn_song">
+            <div className="tmbn_song" style={backgroundStyle}>
               <i className="fas fa-play"></i>
             </div>
             <div className="songmeta_playlist">

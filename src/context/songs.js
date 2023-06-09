@@ -8,6 +8,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/001.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "02",
@@ -15,6 +17,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/002.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "03",
@@ -22,6 +26,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/003.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "04",
@@ -29,6 +35,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/004.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "05",
@@ -36,6 +44,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/005.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "06",
@@ -43,6 +53,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/006.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "07",
@@ -50,6 +62,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/007.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "08",
@@ -57,6 +71,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/008.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "09",
@@ -64,6 +80,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/009.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "10",
@@ -71,6 +89,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/010.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
       {
         title: "11",
@@ -78,6 +98,8 @@ export const booklist = [
         bookTitle: "Three Bedrooms in Manhattan",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/011.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg",
       },
     ],
   },
@@ -90,6 +112,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/01.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "02",
@@ -97,6 +121,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/02.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "03",
@@ -104,6 +130,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/03.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "04",
@@ -111,6 +139,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/04.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "05",
@@ -118,6 +148,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/05.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "06",
@@ -125,6 +157,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/06.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "07",
@@ -132,6 +166,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/07.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "08",
@@ -139,6 +175,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/08.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "09",
@@ -146,6 +184,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/09.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "10",
@@ -153,6 +193,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/10.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "11",
@@ -160,6 +202,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/11.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "12",
@@ -167,6 +211,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/12.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "13",
@@ -174,6 +220,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/13.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "14",
@@ -181,6 +229,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/14.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "15",
@@ -188,6 +238,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/15.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "16",
@@ -195,6 +247,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/16.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
       {
         title: "17",
@@ -202,6 +256,8 @@ export const booklist = [
         bookTitle: "Mary",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/17.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/nabokov/cover290.jpg",
       },
     ],
   },
@@ -214,6 +270,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/001.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "002",
@@ -221,6 +279,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/002.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "003",
@@ -228,6 +288,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/003.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "004",
@@ -235,6 +297,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/004.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "005",
@@ -242,6 +306,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/005.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "006",
@@ -256,6 +322,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/007.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "008",
@@ -263,6 +331,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/008.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "009",
@@ -270,6 +340,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/009.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "010",
@@ -277,6 +349,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/010.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "011",
@@ -284,6 +358,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/011.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "012",
@@ -291,6 +367,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/012.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "013",
@@ -298,6 +376,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/013.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "014",
@@ -305,6 +385,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/014.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "015",
@@ -312,6 +394,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/015.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "016",
@@ -319,6 +403,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/016.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "017",
@@ -326,6 +412,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/017.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "018",
@@ -333,6 +421,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/018.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "019",
@@ -340,6 +430,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/019.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "020",
@@ -347,6 +439,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/020.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "021",
@@ -354,6 +448,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/021.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "022",
@@ -361,6 +457,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/022.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "023",
@@ -368,6 +466,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/023.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "024",
@@ -375,6 +475,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/024.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "025",
@@ -382,6 +484,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/025.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "026",
@@ -389,6 +493,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/026.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "027",
@@ -396,6 +502,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/027.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "028",
@@ -403,6 +511,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/028.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
       {
         title: "029",
@@ -410,6 +520,8 @@ export const booklist = [
         bookTitle: "The Curse of Che Guevara",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/029.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/kolpakidi/cover290.jpg",
       },
     ],
   },

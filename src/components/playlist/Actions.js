@@ -8,7 +8,7 @@ const Actions = () => {
   const { songslist } = useContext(playerContext);
   return (
     <div className="actions">
-      <img src="https://audiobookbackend.s3.us-east-2.amazonaws.com/simenon/cover290.jpg" />
+      <img src={songslist[0].cover290} />
       <div className="album_meta">
         <span className="alb_label">AUDIOBOOK</span>
         <h1>{songslist[0].bookTitle}</h1>
