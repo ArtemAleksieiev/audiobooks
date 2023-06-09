@@ -5,9 +5,11 @@ const Book = (props) => {
   };
   return (
     <article className="book">
-      <img src={img} alt={title} onClick={displayTitle} />
-      <h2>{title}</h2>
-      <h4>{author}</h4>
+      <>
+        <img src={img} alt={title} onClick={displayTitle} />
+        <h2>{title}</h2>
+        <h4>{author}</h4>
+      </>
     </article>
   );
 };

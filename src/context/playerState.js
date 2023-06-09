@@ -1,20 +1,29 @@
 import React, { useReducer } from "react";
 import playerContext from "./playerContext";
 import playerReducer from "./playerReducer";
-import { song_list } from "./songs";
+import { booklist } from "./songs";
 
 const PlayerState = (props) => {
+  //const product = products.find((product) => product.id === productId);
+  const akniga = booklist.find(
+    (akniga) => akniga.audiobook === props.trackList
+  );
+
   const initialState = {
     currentSong: 0,
-    songslist: song_list,
+    startFirstTrack: -1,
+    songslist: akniga.list,
     repeat: false,
     random: false,
     playing: false,
     audio: null,
   };
+  console.log("Current tracklist: " + props.trackList);
+
   const [state, dispatch] = useReducer(playerReducer, initialState);
   //Set current song
   const SetCurrent = (id) => dispatch({ type: "SET_CURRENT_SONG", data: id });
+  const SetStart = (id) => dispatch({ type: "SET_START_TRACK", data: id });
   //Set songs array
   const songsSet = (songsArr) =>
     dispatch({ type: "SET_SONGS_ARRAY", data: songsArr });
@@ -72,6 +81,7 @@ const PlayerState = (props) => {
     <playerContext.Provider
       value={{
         currentSong: state.currentSong,
+        startFirstTrack: state.startFirstTrack,
         // songs: state.songs,
         songslist: state.songslist,
         repeat: state.repeat,
@@ -79,6 +89,7 @@ const PlayerState = (props) => {
         playing: state.playing,
         audio: state.audio,
         SetCurrent,
+        SetStart,
         prevSong,
         nextSong,
         toggleRandom,

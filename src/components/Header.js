@@ -1,9 +1,12 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
-      <h3>ReactWave - {} </h3>
+      <Link to="/">
+        <h3>Back to Home</h3>
+      </Link>
     </header>
   );
 };

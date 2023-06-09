@@ -11,6 +11,12 @@ const playerReducer = (state, action) => {
         currentSong: action.data,
         playing: true,
       };
+    case "SET_START_TRACK":
+      return {
+        ...state,
+        startFirstTrack: action.data,
+        playing: true,
+      };
     case "TOGGLE_RANDOM":
       return {
         ...state,

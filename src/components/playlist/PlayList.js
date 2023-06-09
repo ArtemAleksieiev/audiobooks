@@ -3,7 +3,8 @@ import React, { useContext } from "react";
 import playerContext from "../../context/playerContext";
 
 let Playlist = () => {
-  const { songslist, currentSong, SetCurrent } = useContext(playerContext);
+  const { songslist, currentSong, SetCurrent, SetStart } =
+    useContext(playerContext);
   return (
     <div className="playlist">
       <ul className="loi">
@@ -13,6 +14,7 @@ let Playlist = () => {
             key={i}
             onClick={() => {
               SetCurrent(i);
+              SetStart(i);
             }}
           >
             <div className="tmbn_song">

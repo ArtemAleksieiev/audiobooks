@@ -5,7 +5,8 @@ const Controls = () => {
   // Global State
   const {
     currentSong,
-    songs,
+    startFirstTrack,
+
     nextSong,
     prevSong,
     repeat,
@@ -44,11 +45,12 @@ const Controls = () => {
 
   useEffect(() => {
     audio.current.volume = statevolum;
+
     if (playing) {
       toggleAudio();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentSong, playing & (currentSong === 0)]);
+  }, [startFirstTrack]);
 
   return (
     <div className="controls">
