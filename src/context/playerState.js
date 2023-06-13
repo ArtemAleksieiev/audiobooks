@@ -13,6 +13,7 @@ const PlayerState = (props) => {
     currentSong: 0,
     startFirstTrack: -1,
     songslist: akniga.list,
+
     repeat: false,
     random: false,
     playing: false,
@@ -49,6 +50,7 @@ const PlayerState = (props) => {
       SetCurrent(0);
     } else {
       SetCurrent(state.currentSong + 1);
+      SetStart(state.currentSong + 1);
     }
   };
   //Set playing state
@@ -88,6 +90,7 @@ const PlayerState = (props) => {
         random: state.random,
         playing: state.playing,
         audio: state.audio,
+
         SetCurrent,
         SetStart,
         prevSong,

@@ -1,11 +1,16 @@
 import React, { useContext } from "react";
 import playerContext from "../../context/playerContext";
+
 const fav = () => {
   console.log("I like this one");
 };
 
 const Actions = () => {
   const { songslist } = useContext(playerContext);
+
+  //const url = URL.createObjectURL(blob);
+  //console.log('URL:' + url);
+
   return (
     <div className="actions">
       <img src={songslist[0].cover290} />

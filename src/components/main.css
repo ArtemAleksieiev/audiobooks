@@ -223,9 +223,12 @@ header h3 {
 }
 .fav_song {
   color: red;
-  margin-right: 5px;
+  margin-right: 15px;
 }
-
+.options_song {
+  color: rgb(15, 12, 8);
+  margin-right: 20px;
+}
 .controls {
   display: flex;
   flex-direction: row;

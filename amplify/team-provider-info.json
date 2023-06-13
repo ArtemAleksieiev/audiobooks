@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-audiobooks-dev-204910-authRole",
+      "UnauthRoleArn": "arn:aws:iam::823768060198:role/amplify-audiobooks-dev-204910-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::823768060198:role/amplify-audiobooks-dev-204910-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-audiobooks-dev-204910-deployment",
+      "UnauthRoleName": "amplify-audiobooks-dev-204910-unauthRole",
+      "StackName": "amplify-audiobooks-dev-204910",
+      "StackId": "arn:aws:cloudformation:us-east-2:823768060198:stack/amplify-audiobooks-dev-204910/c8479030-07f1-11ee-908e-02f95392547f",
+      "AmplifyAppId": "d3pff3ktv9b5m0"
+    }
+  }
+}
