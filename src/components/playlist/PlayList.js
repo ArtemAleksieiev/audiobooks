@@ -1,5 +1,7 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import FileSaver from "file-saver";
+import Popup from "reactjs-popup";
+//import "reactjs-popup/dist/index.css";
 //import { song_list } from "../../context/songs";
 import playerContext from "../../context/playerContext";
 import { Storage } from "aws-amplify";
@@ -9,18 +11,44 @@ let Playlist = () => {
     useContext(playerContext);
 
   async function saveTrack(keyPath, filename) {
+    setProgressBar(0);
+    setOpen((o) => !o);
     const result = await Storage.get(keyPath, {
       download: true,
-      progressCallback(progress) {
-        console.log(`Downloaded: ${progress.loaded}/${progress.total}`);
-      },
+      progressCallback,
     });
     FileSaver.saveAs(result.Body, filename);
+    closeModal();
   }
+  const progressCallback = (progress) => {
+    const progressInPercentage = Math.round(
+      (progress.loaded / progress.total) * 100
+    );
+
+    setProgressBar(progressInPercentage);
+
+    console.log(`Progress: ${progressInPercentage}%`);
+  };
 
   const backgroundStyle = {
     backgroundImage: `url(${songslist[0].cover290})`,
   };
+  const [open, setOpen] = useState(false);
+  const [progressBar, setProgressBar] = useState(0);
+  const closeModal = () => setOpen(false);
+  const Modal = () => (
+    <div>
+      <Popup open={open}>
+        <div className="modal">
+          <a className="close" onClick={closeModal}>
+            &times;
+          </a>
+          Downloading: {progressBar} %
+        </div>
+      </Popup>
+    </div>
+  );
+
   return (
     <div className="playlist">
       <ul className="loi">
@@ -51,7 +79,6 @@ let Playlist = () => {
                 <i class="fas fa-ellipsis-v fa-lg"></i>
               </button>
             </div>
-
             <button
               className="fav_song playlist_btn"
               onClick={() =>
@@ -63,6 +90,7 @@ let Playlist = () => {
             >
               <i className="far fa-arrow-alt-circle-down fa-lg"></i>
             </button>
+            <Modal />
           </li>
         ))}
       </ul>
