@@ -525,4 +525,99 @@ export const booklist = [
       },
     ],
   },
+  {
+    audiobook: "oruell",
+    list: [
+      {
+        title: "01",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/01.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "02",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/02.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "03",
+        artistName: "George Orwell",
+        bookTitle: "Three Bedrooms in Manhattan",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/03.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "04",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/04.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "05",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/05.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "06",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/06.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "07",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/07.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "08",
+        artistName: "George Orwell",
+        bookTitle: "Three Bedrooms in Manhattan",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/08.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "09",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/09.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+      {
+        title: "10",
+        artistName: "George Orwell",
+        bookTitle: "Animal Farm",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/10.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+    ],
+  },
 ];

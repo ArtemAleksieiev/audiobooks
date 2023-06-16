@@ -101,3 +101,6 @@ input[type="range"]:focus::-ms-fill-upper {
 .plsoptions {
   justify-self: flex-end;
 }
+.modal {
+  background-color: rgb(255, 170, 170);
+}

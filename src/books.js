@@ -20,4 +20,11 @@ export const books = [
     id: 3,
     tracks: "kolpakidi",
   },
+  {
+    author: "Джордж Оруэлл",
+    title: "Ферма (на белорусском языке)",
+    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover.jpg",
+    id: 4,
+    tracks: "oruell",
+  },
 ];
