@@ -549,7 +549,7 @@ export const booklist = [
       {
         title: "03",
         artistName: "George Orwell",
-        bookTitle: "Three Bedrooms in Manhattan",
+        bookTitle: "Animal Farm",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/03.mp3",
         cover290:
@@ -594,7 +594,7 @@ export const booklist = [
       {
         title: "08",
         artistName: "George Orwell",
-        bookTitle: "Three Bedrooms in Manhattan",
+        bookTitle: "Animal Farm",
         fileUrl:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/08.mp3",
         cover290:
@@ -617,6 +617,83 @@ export const booklist = [
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/10.mp3",
         cover290:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/oruell/cover290.jpg",
+      },
+    ],
+  },
+  {
+    audiobook: "chopra",
+    list: [
+      {
+        title: "01",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/01.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "02",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/02.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "03",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/03.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "04",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/04.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "05",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/05.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "06",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/06.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "07",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/07.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+      {
+        title: "08",
+        artistName: "Deepak Chopra",
+        bookTitle: "The Seven Spiritual Laws of Success",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/08.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
       },
     ],
   },

@@ -10,7 +10,7 @@ function Home() {
         {books.map((book) => {
           return (
             <Link to={`/player/${book.tracks}`} key={book.id}>
-              <Book {...book} />;
+              <Book {...book} />
             </Link>
           );
         })}

@@ -27,4 +27,11 @@ export const books = [
     id: 4,
     tracks: "oruell",
   },
+  {
+    author: "Дипак Чопра",
+    title: "Семь духовных законов успеха",
+    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover.jpg",
+    id: 5,
+    tracks: "chopra",
+  },
 ];
