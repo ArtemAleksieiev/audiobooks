@@ -34,4 +34,11 @@ export const books = [
     id: 5,
     tracks: "chopra",
   },
+  {
+    author: "Демьян Бедный",
+    title: "Про землю, про волю, про рабочую долю",
+    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/cover.jpg",
+    id: 6,
+    tracks: "bedniy",
+  },
 ];

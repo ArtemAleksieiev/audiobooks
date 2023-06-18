@@ -697,4 +697,54 @@ export const booklist = [
       },
     ],
   },
+  {
+    audiobook: "bedniy",
+    list: [
+      {
+        title: "01",
+        artistName: "Demyan Bedny",
+        bookTitle: "About the land, about the will...",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/01.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/cover290.jpg",
+      },
+      {
+        title: "02",
+        artistName: "Demyan Bedny",
+        bookTitle: "About the land, about the will...",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/02.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/cover290.jpg",
+      },
+      {
+        title: "03",
+        artistName: "Demyan Bedny",
+        bookTitle: "About the land, about the will...",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/03.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/cover290.jpg",
+      },
+      {
+        title: "04",
+        artistName: "Demyan Bedny",
+        bookTitle: "About the land, about the will...",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/04.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/bedniy/cover290.jpg",
+      },
+      {
+        title: "05",
+        artistName: "Demyan Bedny",
+        bookTitle: "About the land, about the will...",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/05.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/chopra/cover290.jpg",
+      },
+    ],
+  },
 ];
