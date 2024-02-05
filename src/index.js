@@ -32,7 +32,7 @@ const BookList = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/video" element={<VideoApp />} />
+        <Route path="video" element={<VideoApp />} />
         {/*<Route index element={<Home />} />*/}
         <Route path="player/:tracks" element={<Player />} />
       </Routes>
