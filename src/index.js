@@ -6,6 +6,7 @@ import { Amplify } from "aws-amplify";
 import "./index.css";
 import Player from "./components/Player";
 import Home from "./Home";
+import VideoApp from "./VideoApp";
 
 Amplify.configure({
   Auth: {
@@ -31,6 +32,7 @@ const BookList = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/video" element={<VideoApp />} />
         {/*<Route index element={<Home />} />*/}
         <Route path="player/:tracks" element={<Player />} />
       </Routes>
