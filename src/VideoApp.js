@@ -1,13 +1,12 @@
 import "./video.css";
 import VideoJS from "./VideoJS";
-import video from "./video.mp4";
 
 const VideoApp = () => {
   const videoJsOptions = {
     controls: true,
     sources: [
       {
-        src: video,
+        src: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/video/video.mp4",
         type: "video/mp4",
       },
     ],
