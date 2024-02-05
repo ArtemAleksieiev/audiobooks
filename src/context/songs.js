@@ -747,4 +747,99 @@ export const booklist = [
       },
     ],
   },
+  {
+    audiobook: "boris-litvak",
+    list: [
+      {
+        title: "01",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/01.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "02",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/02.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "03",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/03.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "04",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/04.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "05",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/05.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "06",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/06.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "07",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/07.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "08",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/08.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "09",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/09.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+      {
+        title: "10",
+        artistName: "Boris Litvak",
+        bookTitle: "7 steps to stable self-esteem",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/10.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover290.jpg",
+      },
+    ],
+  },
 ];

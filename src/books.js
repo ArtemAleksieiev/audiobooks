@@ -41,4 +41,11 @@ export const books = [
     id: 6,
     tracks: "bedniy",
   },
+  {
+    author: "Борис Литвак",
+    title: "7 шагов к стабильной самооценке",
+    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/boris-litvak/cover.jpg",
+    id: 7,
+    tracks: "boris-litvak",
+  },
 ];
