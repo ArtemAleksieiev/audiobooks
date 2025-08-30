@@ -51,8 +51,8 @@ export const books = [
 {
     author: "Colin Tipping",
     title: "Radical Forgiveness",
-    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/tipping/cover.jpeg",
-    id: 2,
+    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/tipping/cover.jpg",
+    id: 8,
     tracks: "tipping",
   },
 ];
