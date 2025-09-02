@@ -48,11 +48,18 @@ export const books = [
     id: 7,
     tracks: "boris-litvak",
   },
-{
+  {
     author: "Colin Tipping",
     title: "Radical Forgiveness",
     img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/tipping/cover.jpg",
     id: 8,
     tracks: "tipping",
+  },
+  {
+    author: "Victor Pelevin",
+    title: "S.N.U.F.F.",
+    img: "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover.jpg",
+    id: 9,
+    tracks: "pelevin",
   },
 ];

@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  display: grid;
   min-height: 100vh;
   place-content: center;
   background: linear-gradient(rgb(96, 29, 222), rgb(44, 9, 142));

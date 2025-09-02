@@ -842,10 +842,10 @@ export const booklist = [
       },
     ],
   },
-	{
-	audiobook: "tipping",
-    	list: [
-     	 {
+  {
+    audiobook: "tipping",
+    list: [
+      {
         title: "001",
         artistName: "Colin Tipping",
         bookTitle: "Radical Forgiveness",
@@ -925,6 +925,92 @@ export const booklist = [
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/tipping/009.mp3",
         cover290:
           "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/tipping/cover290.jpg",
+      },
+    ],
+  },
+  {
+    audiobook: "pelevin",
+    list: [
+      {
+        title: "0001",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0001.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0002",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0002.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0003",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0003.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0004",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0004.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0005",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0005.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0006",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0006.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0007",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0007.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0008",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0008.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
+      },
+      {
+        title: "0009",
+        artistName: "Victor Pelevin",
+        bookTitle: "S.N.U.F.F.",
+        fileUrl:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/0009.mp3",
+        cover290:
+          "https://audiobookbackend.s3.us-east-2.amazonaws.com/public/pelevin/cover290.jpg",
       },
     ],
   },
